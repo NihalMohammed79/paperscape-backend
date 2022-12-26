@@ -24,7 +24,7 @@ app.enable('trust proxy');
 // TODO: Implement CORS
 // app.use(cors({ credentials: true, origin: process.env.ORIGIN }));
 app.use(cors());
-app.options('*', cors());
+// app.options('*', cors());
 
 // Logging
 if (process.env.NODE_ENV === 'development') {
